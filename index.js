@@ -14,15 +14,15 @@ client.on('ready', async () => {
     const r = new Discord.RichPresence()
         .setApplicationId('1258311684334944286')
         .setType('PLAYING')
-        .setURL('https://discord.gg/Warmut')
-        .setState('& N1tro Murah, Aman, Begaransi')
+        .setURL('https://discord.gg/4C6dFG8tbx')
+        .setState('Murah, Aman, Begaransi')
         .setName('Warmut Store')
         .setDetails('Menjual Berbagai App Premium')
-        .setAssetsLargeImage('https://media.discordapp.net/attachments/1282219539140055101/1282336290825830440/20240609_172952_0000.png?ex=66defc3c&is=66ddaabc&hm=1d15f9681a2ed791a236b79cec0dfcbf50187495d4f1907e2e2e73e745328b91&=&format=webp&quality=lossless&width=423&height=423')
-        .setAssetsLargeText('Testimoni 850+')
-        .setAssetsSmallImage('https://media.discordapp.net/attachments/1282219539140055101/1282336291333210235/verif.gif?ex=66defc3c&is=66ddaabc&hm=1ae0c26c5628671faeaccbfdcd1fa53bdd2d357a172685ef2c8c6e669c2e72a6&=')
+        .setAssetsLargeImage('https://media.discordapp.net/attachments/1251479736715186228/1345660781248905287/20240609_172952_0000.png?ex=67c55bc3&is=67c40a43&hm=8a1883e9a7cd75f8d6b772dc1b5d40f52e094ed3fc2c343db37d544ee60b5044&=&format=webp&quality=lossless&width=480&height=480')
+        .setAssetsLargeText('Testimoni 900+')
+        .setAssetsSmallImage('https://media.discordapp.net/attachments/1251479736715186228/1345660838727389194/1196765932119408711.gif?ex=67c55bd1&is=67c40a51&hm=7bfd377133dd66295f62ca35e4b1deedc385af9fcda6628334d282ae05c4d3c7&=')
         .setAssetsSmallText('Verified')
-        .addButton('Join Warmut Store', 'https://discord.gg/warmut')
+        .addButton('Join Warmut Store', 'https://discord.gg/4C6dFG8tbx')
         .addButton('Slow Respon? Tekan Ini', 'https://wa.me/6283102229967');
 
     client.user.setActivity(r);
